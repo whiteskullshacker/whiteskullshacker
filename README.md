@@ -4,7 +4,7 @@ Distributed Denial Of Service (DDoS) attacks are a subclass of denial of service
 Note: THIS TOOL IS JUST ONLY FOR EDUCATIONAL PURPOSE..GIVING DDOS ATTACKs WITHOUT SITE OWNER'S PERMISSION IS ILLEGAL.. SO USE IT AT YOUR OWN RISK.. WE'LL BE NOT RESPONSIBLE FOR ANY TYPES OF MISISSUES!!!
 
 
-How To Install GAMKERS-DDOS In Termux
+How To Install WSH-DDOS In Termux
 The Tool Installation Process Is Very Easy.. Just Open Your Termux & Type This Provided Commands!!
 
 $ apt update && apt upgrade
@@ -17,11 +17,11 @@ $ pkg install git
 
 $ pkg install figlet
 
-$ git clone https://github.com/gamkers/GAMKERS-DDOS.git
+$ git clone (link)
 
-$ cd GAMKERS-DDOS
+$ cd 
 
-$ chmod +x GAMKERS-DDOS.py
+$ chmod +x .py
 
 $ python2 GAMKERS-DDOS.py
 
